@@ -1,24 +1,3 @@
-/*
-ul {
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-}
-
-img {
-    border: 4px solid black;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px 5px;
-    width: 30%;
-    margin: auto;
-    
-}
-
-body {
-    background: teal;
-    display: block;
-    text-align: center;
-}*/
 
 
 
@@ -143,12 +122,6 @@ body p {
 
 
 
-
-
-
-
-
-
 footer {
   margin-top: 20px;
   height: 3em;
@@ -194,6 +167,11 @@ bio section:nth-child(1) {
 }
 
 
+
+
+
+
+
 /*Resume*/
 
 .bio #resume {
@@ -205,6 +183,51 @@ bio section:nth-child(1) {
 .bio #resume section {
   flex: 1 25%;
 }
+
+
+
+
+
+
+
+
+
+/*Portfolio*/
+
+.layout {
+    margin: 0;
+}
+
+.layout figure {
+  margin: auto;
+  margin-top: 20px;
+  background: #333;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5em;
+  width: 200px;
+}
+
+.layout main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout img {
+    
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* form*/
@@ -234,6 +257,16 @@ input [type="submit"] {
     footer a {
         text-align: left;
     }
+    
+    body {
+        margin: auto;
+    }
+    
+    .header {
+		width: 100%;
+		height: 50px;
+  background-color: lightblue;}
+
 }
 
 

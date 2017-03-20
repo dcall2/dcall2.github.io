@@ -110,10 +110,11 @@ body h3 {
 }
 
 body p {
+   
   background: lightblue;
   padding: 10px;
   display: flex;
-  text-align: left;
+  text-align: center;
   width: 50%;
   margin-top: 20px;
   margin-left: 30px;
@@ -213,13 +214,20 @@ bio section:nth-child(1) {
   flex-wrap: wrap;
 }
 
-.layout img {
+.portfolio img {
     
     width: 100%;
-    border-radius: 100%;
+    border-radius: 0%;
 }
 
+.layout figcaption {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.portfolio h1 {
+    font-size:5em;
+}
 
 
 
@@ -282,6 +290,11 @@ input [type="submit"] {
 */
     footer a {
         text-align: center;
+    }
+    
+    .layout figure {
+        display: flex;
+        flex-direction: column;
     }
 }
 

@@ -148,6 +148,7 @@ footer div {
 
 /* Bio & Resume */
 
+/*
 .bio #bio {
   display: flex;
   justify-content: space-between;
@@ -166,6 +167,7 @@ bio section:nth-child(1) {
 .contact {
   background: green;
 }
+*/
 
 
 
@@ -175,6 +177,7 @@ bio section:nth-child(1) {
 
 /*Resume*/
 
+/*
 .bio #resume {
   background: grey;
   display: flex;
@@ -184,6 +187,7 @@ bio section:nth-child(1) {
 .bio #resume section {
   flex: 1 25%;
 }
+*/
 
 
 
@@ -195,6 +199,9 @@ bio section:nth-child(1) {
 
 /*Portfolio*/
 
+
+
+/*
 .layout {
     margin: 0;
 }
@@ -228,6 +235,7 @@ bio section:nth-child(1) {
 .portfolio h1 {
     font-size:5em;
 }
+*/
 
 
 
@@ -240,6 +248,7 @@ bio section:nth-child(1) {
 
 /* form*/
 
+/*
 label,
 input {
   display: block;
@@ -249,6 +258,7 @@ input {
 input [type="submit"] {
   border: 0;
 }
+*/
 
 
 /* Mobile: 320px = 20em */

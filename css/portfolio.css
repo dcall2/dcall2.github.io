@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     color: white;
     font-size: 4em;
-    text-shadow: 5px 10px 10px grey;
+    text-shadow: 5px 5px 5px #ccc;
 }
 
 body {
@@ -10,12 +10,19 @@ body {
 }
 
 figure {
+/*
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 6em;
+*/
   background: grey;
   width: 35%;
   padding: 15px;
-  margin: auto;background-image: url(../img/brushed_alu_dark.png);
+  margin: auto;
+  background-image: url(../img/brushed_alu_dark.png);
   margin-top: 20px;
   border-radius: 10px;
+    
 }
 
 h3, figcaption {

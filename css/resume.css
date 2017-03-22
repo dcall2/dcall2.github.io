@@ -1,6 +1,35 @@
-
-
-
 body {
     background-image: url(../img/brushed_alu_dark.png)
+}
+
+div #ewu {
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+
+div {
+    text-align: center;
+   
+}
+
+.logo {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+
+.logo:hover {
+
+    -webkit-filter: drop-shadow(10px 10px 10px white);
+  filter: drop-shadow(10px 10px 10px white);
+}
+
+#ewu:hover {
+    -webkit-filter: drop-shadow(10px 10px 10px white);
+  filter: drop-shadow(10px 10px 10px white);
 }

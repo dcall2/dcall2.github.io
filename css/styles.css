@@ -147,10 +147,11 @@ footer {
 footer a {
   display: block;
   text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 1em;
 }
 
+/*
 footer div {
   display: block;
   font-size: 17px;
@@ -158,6 +159,7 @@ footer div {
   margin-top: -18px;
     margin-right: 1em;
 }
+*/
 
 
 

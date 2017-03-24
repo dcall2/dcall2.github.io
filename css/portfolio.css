@@ -78,3 +78,31 @@ Show it */
   align-items: center;
   min-height: 50vh;
 }
+
+h3 {
+    color: antiquewhite;
+}
+
+.gandhi {
+    width: 70%;
+}
+
+.local {
+    width: 70%;
+}
+
+.superman {
+    width: 70%;
+}
+
+
+footer a {
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+        font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
